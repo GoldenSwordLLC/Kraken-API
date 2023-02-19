@@ -15,13 +15,15 @@ if using Linux: create a virtual enviroment ( virtualenv -p python3 /home/user/v
 Once tcl/tk and requests have installed, you can run the program.
 It comes with two different files: ``start.py`` and ``config.py``.
 
+start.py is the main program. 
+
+if you aren't in the same directory as the program, here's an example if the program was on the desktop:
+
+if using Windows: ``python C:\\Users\\David\\Desktop\\start.py``
+
+if using Linux: ``~/venv/bin/python ~/Desktop/start.py``
+
 ---
-
-start.py is the main program. You can run it using:
-``python start.py``
-
-or if you aren't in the same directory as the program, here's an example if the program was on the desktop:
-``python C:\\Users\\David\\Desktop\\start.py``
 
 config.py can be edited by hand to change:
 - api key/secret
