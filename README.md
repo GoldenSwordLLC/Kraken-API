@@ -2,19 +2,26 @@ Upon installing Python, ensure you customize your installation and have tcl/tk i
 https://stackoverflow.com/a/63032937/9614384
 Also make sure you click to install pip as well.
 
-Once the installation is finished, go into a command prompt and type the following, making sure it installs:
-pip install requests
+---
 
-Once tcl/tk and requests have installed, you can run the program. It comes with three different files.
-start.py, config.py, and bots.json.
+Once the installation is finished..
+
+if using Windows: go into a command prompt and type the following to install requests: ``pip install requests``
+
+if using Linux: create a virtual enviroment ( virtualenv -p python3 /home/user/venv ) and install requests: ``~/venv/bin/pip install requests``
+
+---
+
+Once tcl/tk and requests have installed, you can run the program.
+It comes with two different files: ``start.py`` and ``config.py``.
 
 ---
 
 start.py is the main program. You can run it using:
-python start.py
+``python start.py``
 
 or if you aren't in the same directory as the program, here's an example if the program was on the desktop:
-python C:\\Users\\David\\Desktop\\start.py
+``python C:\\Users\\David\\Desktop\\start.py``
 
 config.py can be edited by hand to change:
 - api key/secret
